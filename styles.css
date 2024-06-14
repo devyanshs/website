@@ -1,0 +1,77 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #ffedf3; /* Light pink background */
+    color: #333;
+    text-align: center;
+}
+
+header {
+    padding: 50px 0;
+    background-color: #ff80ab; /* Soft pink header background */
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.content {
+    padding: 50px;
+}
+
+.hero, .shayari, .reasons {
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero h2, .shayari h2, .reasons h2 {
+    font-size: 2rem;
+    color: #ff80ab; /* Pink heading */
+}
+
+.shayari .quote {
+    margin-bottom: 20px;
+}
+
+.shayari .quote p {
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.reasons ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.reasons li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #ff80ab; /* Pink footer background */
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
